@@ -1,41 +1,37 @@
-# 🛒 Simple E-Commerce Website
+# Simple Ecommerce Website
 
-A basic e-commerce website built using **HTML**, **CSS**, and **JavaScript**. This project simulates a simple online store with a product catalog, shopping cart functionality, and responsive design — perfect for learning frontend web development.
+This is a basic ecommerce website built using **HTML**, **CSS**, and **JavaScript**. It showcases a simple product list and a cart counter that updates when items are added to the cart.
 
----
+## Features
 
-## 🚀 Features
+- Displays a list of products with images, names, and prices
+- "Add to Cart" buttons to add items to the cart
+- Cart item count updates dynamically
+- Responsive grid layout for products
 
-- 📦 Product listing grid
-- 🛍️ Add to cart functionality
-- 🧮 Cart quantity & total price calculation
-- ❌ Remove items from cart
-- 🌐 Responsive design for mobile and desktop
-- ✨ Simple UI/UX using plain HTML/CSS/JS
+## How to Use
 
----
+1. Clone or download the repository.
+2. Open the `index.html` file in any modern web browser (Chrome, Firefox, Edge, etc.).
+3. Click the "Add to Cart" button on any product to add it to your cart.
+4. The cart count in the header updates accordingly.
 
-## 📸 Screenshots
+## Project Structure
 
-*(Add screenshots of homepage, product page, and cart here)*
+/ (root folder)
+│
+├── index.html # Main HTML page
+├── styles.css # CSS styles
+├── script.js # JavaScript for interactivity
+└── README.md # This file
 
----
 
-## 🧰 Tech Stack
+## Notes
 
-- **HTML** – Structure of the website  
-- **CSS** – Styling and layout  
-- **JavaScript** – Interactivity (add/remove items, update cart)
+- This is a frontend-only project with no backend or database.
+- The cart is stored in a simple array in JavaScript and resets on page reload.
+- Product images are placeholder images from `via.placeholder.com`.
 
----
+## License
 
-## 📂 Project Structure
-
-ecommerce-website/
-├── index.html # Main page
-├── css/
-│ └── style.css # All styles
-├── js/
-│ └── script.js # All JavaScript logic
-├── images/ # Product and UI images
-└── README.md # Project documentation
+This project is free to use and modify.
